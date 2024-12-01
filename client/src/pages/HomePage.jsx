@@ -27,7 +27,7 @@ const HomaPage = () => {
   }, [elementsToLoad]); // Agregar como dependencia
 
   return (
-    <div>
+    <div className="">
 
       <div className="z-50">
         {loading && (
@@ -82,7 +82,7 @@ const HomaPage = () => {
             >
               CAPITAL IMPERIUM
             </h1> */}
-            <img className="w-1/3 lg:w-1/6" src={`${import.meta.env.BASE_URL}logoICVT.png`} alt="Logo" />
+            <img className="w-1/2 lg:w-1/5" src={`${import.meta.env.BASE_URL}logoVT.png`} alt="Logo" />
             {/* <p
               className="text-lg md:text-2xl font-light text-justify"
               style={{ textShadow: "2px 2px 10px rgba(0, 0, 0, 1)" }}
@@ -94,7 +94,7 @@ const HomaPage = () => {
 
         {/*About us*/}
         <div id="about" className="snap-section section md:pt-28 text-sm md:text-base">
-          <div className="">
+          <div className="bg-black text-white">
             <div className="gap-10 flex flex-col md:flex-row justify-center items-center mx-auto px-4 lg:px-20 2xl:px-60">
 
               <div className="md:w-1/2 pt-10 md:py-10">
@@ -128,7 +128,7 @@ const HomaPage = () => {
           </div>
 
           {/*Mision & Vision*/}
-          <div className="bg-gradient-to-b from-white to-[#f2f2f2]">
+          <div className="bg-gradient-to-b from-white to-gray-200">
             <div className="gap-10 flex flex-col md:flex-row justify-center items-center mx-auto px-4 lg:px-20 2xl:px-60">
 
               <div className="md:w-2/3 pt-10 md:py-10">
@@ -190,7 +190,7 @@ const HomaPage = () => {
                 image: "ofi6.jpg",
               },
             ].map((card, index) => (
-              <div key={index} className="cursor-pointer h-full shadow-xl rounded-lg relative group overflow-hidden hover:z-50">
+              <div key={index} className="bg-zinc-200 cursor-pointer h-full shadow-xl rounded-lg relative group overflow-hidden hover:z-50">
                 {/* Image */}
                 <img
                   src={`${import.meta.env.BASE_URL}${card.image}`}
@@ -202,9 +202,9 @@ const HomaPage = () => {
                   <h5 className="text-base md:text-lg font-semibold">{card.title}</h5>
                 </div>
                 {/* Description (hidden until hover) */}
-                <div className="p-4 md:p-6 absolute inset-0 bg-white flex flex-col justify-center text-left opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="p-4 md:p-6 absolute inset-0 bg-zinc-100 flex flex-col justify-center text-left opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <h5 className="text-base md:text-lg font-semibold">{card.title}</h5>
-                  <p className="text-sm md:text-base text-gray-700 mt-2">{card.description}</p>
+                  <p className="text-sm md:text-base mt-2">{card.description}</p>
                 </div>
               </div>
             ))}
@@ -219,11 +219,11 @@ const HomaPage = () => {
 
 
         {/* Prefooter Section */}
-        <div id="contact" className="snap-section section bg-[#f2f2f2] text-black w-full text-left mt-16 p-4 md:p-8 bg-repeat bg-center min-h-[200px]">
+        <div id="contact" className="snap-section section bg-gray-300 text-black w-full text-left p-4 md:p-8 bg-repeat bg-center min-h-[200px]">
           <div className="px-4 md:px-32 lg:px-48">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               <div className="flex items-center justify-center">
-                <img className="h-12 md:h-24" src={`${import.meta.env.BASE_URL}logoICHT.png`} alt="Logo" />
+                <img className="h-12 md:h-24" src={`${import.meta.env.BASE_URL}logoHT.png`} alt="Logo" />
               </div>
 
               <div className="flex items-center justify-left p-6">
@@ -384,7 +384,7 @@ const HomaPage = () => {
           </div>
         </div>
         <footer className="bg-black text-white text-xs bottom-0 w-full text-center py-1">
-          <p>&copy; 2024 Imperium Capital. All rights reserved.</p>
+          <p>&copy; 2024 HW USA Investments. All rights reserved.</p>
         </footer>
       </div>
 

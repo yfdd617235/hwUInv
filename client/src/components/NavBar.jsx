@@ -41,15 +41,15 @@ function NavBar() {
   }, [isMenuOpen]);
 
   return (
-    <nav className="bg-white h-16 fixed top-0 w-full py-0 z-50 shadow-md">
+    <nav className="bg-gray-300 h-16 fixed top-0 w-full py-0 z-50 shadow-md">
       <div className="flex justify-between items-center h-full px-5 lg:px-10">
         {/* Logo */}
         <div className="flex-shrink-0">
           <Link to="home" smooth={true} duration={1000} className="cursor-pointer">
             <div className="h-10 lg:h-14">
               <img
-                src={`${import.meta.env.BASE_URL}logoICH.png`}
-                alt="PPI"
+                src={`${import.meta.env.BASE_URL}logoHT.png`}
+                alt="HW"
                 className="h-full w-auto object-contain"
               />
             </div>
