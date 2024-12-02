@@ -73,7 +73,7 @@ function NavBar() {
 
           <div className="flex items-center space-x-3">
             <button onClick={() => changeLanguage('en')} className="w-5 h-5">
-              <img src={`${import.meta.env.BASE_URL}enFlag.png`} alt="English" />
+              <img src={`${import.meta.env.BASE_URL}enFlag1.png`} alt="English" />
             </button>
             <button onClick={() => changeLanguage('es')} className="w-5 h-5">
               <img src={`${import.meta.env.BASE_URL}esFlag.png`} alt="Español" />
@@ -107,7 +107,7 @@ function NavBar() {
             ))}
             <div className="flex items-center space-x-3">
               <button onClick={() => changeLanguage('en')}>
-                <img src={`${import.meta.env.BASE_URL}enFlag.png`} alt="English" className="w-6 h-6" />
+                <img src={`${import.meta.env.BASE_URL}enFlag1.png`} alt="English" className="w-6 h-6" />
               </button>
               <button onClick={() => changeLanguage('es')}>
                 <img src={`${import.meta.env.BASE_URL}esFlag.png`} alt="Español" className="w-6 h-6" />
