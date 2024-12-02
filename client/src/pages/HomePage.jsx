@@ -41,8 +41,8 @@ const HomaPage = () => {
         <div id="home" className="snap-section relative h-screen w-full flex justify-center items-center overflow-hidden">
           <video
             className="absolute top-0 left-0 w-full h-full object-cover -z-20"
-            src={`${import.meta.env.BASE_URL}building.mp4`}
-            poster={`${import.meta.env.BASE_URL}building.png`}
+            src={`${import.meta.env.BASE_URL}firstvideo.mp4`}
+            poster={`${import.meta.env.BASE_URL}firstpicture.png`}
             muted
             autoPlay
             loop
@@ -72,7 +72,7 @@ const HomaPage = () => {
         /> */}
 
           {/* Fondo negro con opacidad */}
-          <div className="absolute top-0 left-0 w-full h-full bg-white opacity-30 -z-10" />
+          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-35 -z-10" />
 
           {/* Logo */}
           <div className="absolute flex flex-col px-6 items-center text-white">
@@ -112,8 +112,8 @@ const HomaPage = () => {
               <div className="flex-shrink-0 md:w-1/2 flex justify-center items-center">
                 <video
                   className="w-full h-full object-cover"
-                  src={`${import.meta.env.BASE_URL}presentation.mp4`}
-                  poster={`${import.meta.env.BASE_URL}presentation.png`}
+                  src={`${import.meta.env.BASE_URL}secondvideo.mp4`}
+                  poster={`${import.meta.env.BASE_URL}secondpicture.png`}
                   muted
                   autoPlay
                   loop
@@ -155,7 +155,7 @@ const HomaPage = () => {
 
 
         {/* Cards Section */}
-        <div id="services" className="snap-section section mx-auto px-4 lg:px-20 2xl:px-60 mb-32 pt-28">
+        <div id="services" className="snap-section section mx-auto px-4 lg:px-20 2xl:px-60 mb-32 pt-20">
           <h2 className="text-lg md:text-2xl font-bold text-center pb-16">{t('services.services')}</h2>
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
             {/* Card Template */}

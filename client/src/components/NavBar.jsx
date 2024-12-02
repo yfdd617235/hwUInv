@@ -41,7 +41,7 @@ function NavBar() {
   }, [isMenuOpen]);
 
   return (
-    <nav className="bg-gray-300 h-16 fixed top-0 w-full py-0 z-50 shadow-md">
+    <nav className="bg-white h-16 fixed top-0 w-full py-0 z-50 shadow-md">
       <div className="flex justify-between items-center h-full px-5 lg:px-10">
         {/* Logo */}
         <div className="flex-shrink-0">
