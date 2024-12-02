@@ -72,17 +72,17 @@ const HomaPage = () => {
         /> */}
 
           {/* Fondo negro con opacidad */}
-          <div className="absolute top-0 left-0 w-full h-full bg-gray-900 opacity-30 -z-10" />
+          <div className="absolute top-0 left-0 w-full h-full bg-white opacity-30 -z-10" />
 
           {/* Logo */}
           <div className="absolute flex flex-col px-6 items-center text-white">
-            <h1
+            {/* <h1
               className="text-4xl md:text-6xl font-bold mb-4"
               style={{ textShadow: "2px 2px 10px rgba(0, 0, 0, 1)" }}
             >
               HW
             </h1>
-            <p>USA INVESTMENTS</p>
+            <p>USA INVESTMENTS</p> */}
             <img className="w-1/2 lg:w-1/5" src={`${import.meta.env.BASE_URL}logoVT.png`} alt="Logo" />
             {/* <p
               className="text-lg md:text-2xl font-light text-justify"
