@@ -72,7 +72,7 @@ const HomaPage = () => {
         /> */}
 
           {/* Fondo negro con opacidad */}
-          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-35 -z-10" />
+          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70 -z-10" />
 
           {/* Logo */}
           <div className="absolute flex flex-col px-6 items-center text-white">
