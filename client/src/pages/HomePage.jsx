@@ -233,13 +233,13 @@ const HomaPage = () => {
 
                   {/* Correo electrónico */}
                   <a
-                    href="mailto:gerencia@capitalimperium.com"
+                    href="mailto:info@hwusainvestments.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 text-xs md:text-sm"
                   >
                     <EnvelopeIcon className="w-4 h-4 text-black" />
-                    <span >gerencia@capitalimperium.com</span>
+                    <span >info@hwusainvestments.com</span>
                   </a>
 
                   {/* <div className="flex gap-4">
