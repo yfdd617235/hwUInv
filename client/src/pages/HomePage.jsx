@@ -242,8 +242,8 @@ const HomaPage = () => {
                     <span >gerencia@capitalimperium.com</span>
                   </a>
 
-                  <div className="flex gap-4">
-                    {/* LinkedIn */}
+                  {/* <div className="flex gap-4">
+                   
                     <a
                       href="https://es.linkedin.com/company/conti"
                       target="_blank"
@@ -261,7 +261,7 @@ const HomaPage = () => {
                       </svg>
                     </a>
 
-                    {/* WhatsApp */}
+                    
                     <a
                       href="https://wa.me/+573104221653"
                       target="_blank"
@@ -280,7 +280,7 @@ const HomaPage = () => {
                       </svg>
                     </a>
 
-                    {/* Instagram */}
+                    
                     <a
                       href="https://www.instagram.com/tu_nombre_usuario"
                       target="_blank"
@@ -298,7 +298,7 @@ const HomaPage = () => {
                       </svg>
                     </a>
 
-                    {/* Facebook */}
+                    
                     <a
                       href="https://www.facebook.com/tu_nombre_usuario"
                       target="_blank"
@@ -316,9 +316,6 @@ const HomaPage = () => {
                       </svg>
                     </a>
 
-
-
-                    {/* X */}
                     <a
                       href="https://twitter.com/tu_nombre_usuario"
                       target="_blank"
@@ -334,7 +331,7 @@ const HomaPage = () => {
                         <path d="M22.46 6c-.77.34-1.6.57-2.48.67a4.34 4.34 0 0 0 1.91-2.39c-.84.5-1.77.87-2.76 1.07A4.303 4.303 0 0 0 16.54 5a4.3 4.3 0 0 0-4.3 4.3c0 .34.04.67.11 1a12.23 12.23 0 0 1-8.86-4.48c-.36.62-.56 1.34-.56 2.1 0 1.44.73 2.72 1.83 3.47-.67-.02-1.29-.2-1.83-.5v.05c0 2.01 1.43 3.68 3.34 4.05-.35.1-.73.15-1.12.15-.27 0-.53-.02-.78-.07.53 1.67 2.07 2.88 3.91 2.91-1.43 1.12-3.23 1.79-5.19 1.79-.34 0-.67-.02-1-.07 1.83 1.17 4 1.86 6.32 1.86 7.62 0 11.77-6.3 11.77-11.75 0-.18 0-.35-.01-.53a8.31 8.31 0 0 0 2.04-2.12z" />
                       </svg>
                     </a>
-                  </div>
+                  </div> */}
 
 
                 </div>
@@ -348,7 +345,7 @@ const HomaPage = () => {
                   <h5 className="text-xs md:text-sm lg:text-lg font-bold">{t('contact.location')}</h5>
                   <div className="flex items-center">
                     <a
-                      href="https://www.google.com/maps/search/?api=1&query=Cra+43A+%233+Sur+-130,+Torre+2,+Oficina+915,+CE+Milla+de+Oro,+Medellín,+Antioquia"
+                      href="https://www.google.com/maps/place/848+Brickell+Ave+Suite+950,+Miami,+FL+33131,+EE.+UU./@25.7650224,-80.1940107,17z/data=!3m1!4b1!4m6!3m5!1s0x88d9b683a335c305:0x28a418bed29d681b!8m2!3d25.7650224!4d-80.1914358!16s%2Fg%2F11pvcv16t1?entry=ttu&g_ep=EgoyMDI0MTIwMS4xIKXMDSoASAFQAw%3D%3D"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center text-xs md:text-sm hover:underline"
@@ -362,7 +359,7 @@ const HomaPage = () => {
                       >
                         <path d="M16.114-0.011c-6.559 0-12.114 5.587-12.114 12.204 0 6.93 6.439 14.017 10.77 18.998 0.017 0.020 0.717 0.797 1.579 0.797h0.076c0.863 0 1.558-0.777 1.575-0.797 4.064-4.672 10-12.377 10-18.998 0-6.618-4.333-12.204-11.886-12.204zM16.515 29.849c-0.035 0.035-0.086 0.074-0.131 0.107-0.046-0.032-0.096-0.072-0.133-0.107l-0.523-0.602c-4.106-4.71-9.729-11.161-9.729-17.055 0-5.532 4.632-10.205 10.114-10.205 6.829 0 9.886 5.125 9.886 10.205 0 4.474-3.192 10.416-9.485 17.657zM16.035 6.044c-3.313 0-6 2.686-6 6s2.687 6 6 6 6-2.687 6-6-2.686-6-6-6zM16.035 16.044c-2.206 0-4.046-1.838-4.046-4.044s1.794-4 4-4c2.207 0 4 1.794 4 4 0.001 2.206-1.747 4.044-3.954 4.044z" />
                       </svg>
-                      <span>Cra 43A #3 Sur -130, Torre 2, Oficina 915, CE Milla de Oro, Medellín, Antioquia</span>
+                      <span>848 BRICKELL AVE STE 950<br />MIAMI FL 33131-2976</span>
                     </a>
                   </div>
 
