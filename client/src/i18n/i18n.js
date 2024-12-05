@@ -40,7 +40,7 @@ const resources = {
                 card6text: "We provide strategic advisory for business expansion, ensuring scalable and profitable processes that drive sustained growth.",
             },
             ourcustomers: {
-                title: "Our Clients",
+                title: "Our Customers",
                 carruseltext1: "Commitment to economic growth and profitability.",
                 carruseltext2: "Personalized solutions for every investment.",
                 carruseltext3: "Exclusive and strategic financial advisory.",

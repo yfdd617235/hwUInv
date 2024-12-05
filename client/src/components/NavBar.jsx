@@ -58,7 +58,7 @@ function NavBar() {
 
         {/* Desktop Menu */}
         <div className="hidden lg:flex space-x-7 items-center">
-          {['about', 'clients', 'services', 'contact'].map((section) => (
+          {['about', 'services', 'clients', 'contact'].map((section) => (
             <Link
               key={section}
               to={section}
@@ -93,7 +93,7 @@ function NavBar() {
       {isMenuOpen && (
         <div ref={menuRef} className="lg:hidden absolute top-16 left-0 w-full bg-white shadow-lg z-50">
           <div className="flex flex-col space-y-4 px-8 py-6">
-            {['about', 'clients', 'services', 'contact'].map((section) => (
+            {['about', 'services', 'clients', 'contact'].map((section) => (
               <Link
                 key={section}
                 to={section}
